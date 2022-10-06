@@ -5,7 +5,7 @@ import java.util.Date;
 public class 시각스레드 extends Thread {
 	@Override
 	public void run() {
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 20; i++) {
 			Date date = new Date();
 			System.out.println(date);
 			// cpu 1초 stop
